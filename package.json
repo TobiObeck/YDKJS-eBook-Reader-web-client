@@ -1,0 +1,16 @@
+{
+  "name": "ydkjs-ebook-reader-client",
+  "version": "1.0.0",
+  "description": "Markdown to HTML parser of the raw github files of Kyle Simpson's\nYou Don't Know JS (book series)\nhttps://github.com/getify/You-Dont-Know-JS",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "7.2.0",
+    "parcel-bundler": "^1.6.1"
+  },
+  "keywords": []
+}

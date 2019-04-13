@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="src/styles.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/3.0.1/github-markdown.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.0/showdown.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.js"></script>
+    <style></style>
+  </head>
+  <body>
+    <div class="select-bar transparent-gradient">
+      <select id="selectchapter">
+        <option>README.md</option>
+      </select>
+      <select id="selectbook">
+        <option>up & going</option>
+        <option>scope & closures</option>
+        <option>this & object prototypes</option>
+        <option>types & grammar</option>
+        <option>async & performance</option>
+        <option>es6 & beyond</option>
+      </select>
+    </div>
+
+    <div class="hidden-bar">
+      <!-- this is invisible but takes up as much space as the visible select box -->
+      <select>
+        <option>i am hidden</option>
+      </select>
+    </div>
+
+    <section id="content" class="markdown-body">
+      loading...
+    </section>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
